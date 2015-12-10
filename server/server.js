@@ -42,7 +42,6 @@ var soap = Meteor.npmRequire('soap');
 var data = Async.runSync(function(done) {
   soap.createClient(url, function(err, client) {
     client.CautareDosare(args, done);
-    client.CautareDosare(args2, done);
   });
 });
 
