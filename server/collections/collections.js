@@ -9,4 +9,4 @@ DateDosare._ensureIndex({
   "data_start": 1
 });
 
-var url = 'http://portalquery.just.ro/Query.asmx?wsdl';
+url = 'http://portalquery.just.ro/Query.asmx?wsdl';
